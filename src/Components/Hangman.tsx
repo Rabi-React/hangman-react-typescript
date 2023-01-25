@@ -1,7 +1,7 @@
 import React,{useState, useRef, useEffect} from 'react'
 
 export default function Hangman() {
-    const word = "Bedsheet".toUpperCase();
+    const word = "IceCream".toUpperCase();
     const inputRef = useRef<HTMLInputElement | null>(null);
 
     const [guessed, setGuessed] = useState<string | any>([])
